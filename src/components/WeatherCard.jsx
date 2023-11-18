@@ -126,7 +126,7 @@ const WeatherCard = ({ data }) => {
 
   return (
     <div className="weather-card w-full mx-auto max-w-[1300px] p-2 flex">
-      <div className="left mt-[2.9rem] pr-4">
+      <div className="left mt-[2.4rem] pr-4">
         <div className="box flex  gap-3 flex-col">
           <div className="date">
             <p className="font-normal">Select Date:</p>
@@ -154,3 +154,7 @@ const WeatherCard = ({ data }) => {
 };
 
 export default WeatherCard;
+
+
+
+
