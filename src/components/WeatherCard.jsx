@@ -129,10 +129,11 @@ const WeatherCard = ({ data }) => {
       <div className="left mt-[2.9rem] pr-4">
         <div className="box flex  gap-3 flex-col">
           <div className="date">
-            <p className="font-normal">Select Date</p>
+            <p className="font-normal">Select Date:</p>
             <input
               type="date"
               value={selectedDate}
+              className="bg-[#D9D9D9] p-1 w-fit rounded-sm text-[#444444] border border-black"
               onChange={(e) => setSelectedDate(e.target.value)}
             />
           </div>
